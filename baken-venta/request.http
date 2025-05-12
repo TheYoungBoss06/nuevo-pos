@@ -1,0 +1,17 @@
+PATCH  http://127.0.0.1:3000/api/productos/4
+Content-Type: application/json
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF91c3VhcmlvIjoxMCwidXNlcl9uYW1lIjoiRWx2aW4iLCJpYXQiOjE3NDcwMDMzOTgsImV4cCI6MTc0NzAzMjE5OH0.0jaHqovqnhaSrtWfeKv9gpA7QJTDYGJLBcnIPdT7hc8
+
+{
+  "cantidad": -1
+}
+
+HTTP/1.1 200  - OK
+x-powered-by: Express
+access-control-allow-origin: *
+access-control-allow-credentials: true
+content-type: application/json; charset=utf-8
+content-length: 784
+etag: W/"310-IZDp/uVMzJj3oDEe8wQflQm+Gvo"
+date: Sun, 11 May 2025 22:54:35 GMT
+connection: close

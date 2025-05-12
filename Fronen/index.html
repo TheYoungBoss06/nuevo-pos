@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel Admin</title>
+  <link rel="icon" href="favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <!-- <link rel="stylesheet" href="./css/dashboard.css" /> -->
+
+
+  <!-- Puedes usar iconos de Boxicons o Font Awesome si deseas -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <!-- Barra lateral -->
+    <aside class="sidebar">
+      <h2 class="logo">Admin</h2>
+      <nav class="nav">
+        <a href="#estadisticas" class="nav-item active"><i class='bx bx-home'></i> Dashboard</a>
+        <a href="#pos-venta" class="nav-item"><i class='bx bx-cart'></i> Ventas</a> <!-- Cambio de clase para ícono -->
+        <a href="#" class="nav-item" id="btnLogout"><i class='bx bx-log-out'></i> Salir</a>
+      </nav>
+    </aside>
+    <!-- Contenido principal -->
+    <main class="main-content">
+      <section id="main-content">
+        <div id="facturas-container"></div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
